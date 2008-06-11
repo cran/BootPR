@@ -4,7 +4,7 @@ function(x,p,h,nboot,prob,correct)
 set.seed(12345)
 n <- nrow(x)
 
-B <- OLS.AR(x,p,h)
+B <- OLS.AR(x,p,h,prob)
 BBC <- Bootstrap(x,p,h,200,correct)
 BBCB <- BootstrapB(x,p,h,200,correct)
 

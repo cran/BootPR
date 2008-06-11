@@ -3,7 +3,7 @@ function(x,p,h,nboot,prob)
 {
 set.seed(12345)
 n <- nrow(x)
-B <- OLS.ART(x,p,h)
+B <- OLS.ART(x,p,h,prob)
 bb <- LSMBT(x,p)$coef
 eb <- sqrt( (n-p) / ( (n-p)-length(bb)))*LSMBT(x,p)$resid
 ef <- sqrt( (n-p) / ( (n-p)-length(bb)))*LSMT(x,p)$resid
