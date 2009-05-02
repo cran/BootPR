@@ -1,4 +1,4 @@
-`RE.LSMTB` <-
+RE.LSMTB <-
 function(x,p,b)
 {
     x <- as.matrix(x)

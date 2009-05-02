@@ -1,4 +1,4 @@
-`RESIDT` <-
+RESIDT <-
 function(x,b)
 {
     x <- as.matrix(x)

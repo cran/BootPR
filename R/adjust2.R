@@ -1,14 +1,11 @@
-`adjust2` <-
+adjust2 <-
 function(b,p)
 {
-library(combinat)
-options(warn=-1)
+
 s <- polyroot(c(1,-b[1:p]))
 if( min(Mod(s)) > 1) return(as.matrix(b,nrow=length(b)))
 
-
 cvec <- 1/rev(s)
-
 for(i in 1:length(cvec))
 {if(Mod(cvec[i]) > 1)
 cvec[i] <- 1/cvec[i]}

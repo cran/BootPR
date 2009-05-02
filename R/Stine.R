@@ -1,4 +1,4 @@
-`Stine` <-
+Stine <-
 function(bb,n,p)
 {
 a <- c(1,bb[1:p])

@@ -1,4 +1,4 @@
-`LSM` <-
+LSM <-
 function(x,p)
 {
     x <- as.matrix(x)

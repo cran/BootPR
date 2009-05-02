@@ -1,4 +1,4 @@
-`alpha.u0` <-
+alpha.u0 <-
 function(b,p,n)
 {
 alphavec <- c(-0.99,seq(-0.9,1,0.1))

@@ -1,4 +1,4 @@
-`BootstrapT` <-
+BootstrapT <-
 function(x,p,h,nboot,correct)
 {
     set.seed(12345)
@@ -12,7 +12,7 @@ function(x,p,h,nboot,correct)
         index <- as.integer(runif(n-p, min=1, max=nrow(e)))
         es <- e[index,1]
         xs <- ysT(x, b, es)
-        btem1 <- btem1 + OLS.ART(xs,p,0)$coef/nboot
+        btem1 <- btem1 + OLS.ART(xs,p,0,0)$coef/nboot
     }
     bc <- 2*b-btem1
     if( correct == "kilian")

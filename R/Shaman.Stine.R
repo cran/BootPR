@@ -1,4 +1,4 @@
-`Shaman.Stine` <-
+Shaman.Stine <-
 function(x,p,h,correct)
 {
 x <- as.matrix(x)

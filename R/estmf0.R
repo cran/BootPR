@@ -1,4 +1,4 @@
-`estmf0` <-
+estmf0 <-
 function(x,p,alphau)
 {
 x <- as.matrix(x)

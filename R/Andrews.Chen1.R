@@ -1,4 +1,4 @@
-`Andrews.Chen1` <-
+Andrews.Chen1 <-
 function(x,p,h)
 {
 x <- as.matrix(x)

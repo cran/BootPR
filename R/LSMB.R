@@ -1,4 +1,4 @@
-`LSMB` <-
+LSMB <-
 function(x,p)
 {
     x <- as.matrix(x)

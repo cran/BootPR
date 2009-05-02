@@ -1,4 +1,4 @@
-`RoyFuller1.PI` <-
+RoyFuller1.PI <-
 function(x,p,h,nboot,prob,type)
 {
 set.seed(12345)

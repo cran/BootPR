@@ -1,4 +1,4 @@
-`fullerT` <-
+fullerT <-
 function(x,p)
 {
 y <- as.matrix(x)

@@ -1,4 +1,4 @@
-`OLS.AR` <-
+OLS.AR <-
 function(x,p,h,prob)
 {
     x <- as.matrix(x)

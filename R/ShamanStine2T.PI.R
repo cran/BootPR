@@ -1,4 +1,4 @@
-`ShamanStine2T.PI` <-
+ShamanStine2T.PI <-
 function(x,p,h,nboot,prob,correct,pmax)
 {
 set.seed(12345)

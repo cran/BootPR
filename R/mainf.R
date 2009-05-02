@@ -1,4 +1,4 @@
-`mainf` <- 
+mainf <-
 function(b,h,p)
 {
     mf <- c(1, b[1], rep(0,h-1))
@@ -9,3 +9,4 @@ function(b,h,p)
     }
     return(mf)
 }
+

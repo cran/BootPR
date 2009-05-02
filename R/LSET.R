@@ -1,4 +1,4 @@
-`LSET` <-
+LSET <-
 function(x,p)
 {
     x <- as.matrix(x)

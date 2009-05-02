@@ -1,4 +1,4 @@
-`adjust` <-
+adjust <-
 function(b,btem1,p)
 {
     bias <- b - btem1
@@ -12,6 +12,8 @@ function(b,btem1,p)
         delta1 <- delta1-0.01
         bias <- delta1*bias
         bs2 <- b - bias
+        if (sum(as.numeric(is.infinite(bs2))) > 0) 
+        {bs2 <- bs1; break}
         delta3 <- min(Mod(polyroot(c(1,-bs2[1:p]))))
     }
     return(bs2)

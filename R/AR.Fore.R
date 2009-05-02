@@ -1,4 +1,4 @@
-`AR.Fore` <-
+AR.Fore <-
 function(x,b,h)
 {
 n <- nrow(x)

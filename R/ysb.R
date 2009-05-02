@@ -1,4 +1,4 @@
-`ysb` <-
+ysb <-
 function(x,b,e)
 {
     p <- length(b)-1

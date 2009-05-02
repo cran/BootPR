@@ -1,4 +1,4 @@
-`alphas` <-
+alphas <-
 function(alpha,b,p,n)
 {set.seed(12345)
 b[1,1] <- alpha

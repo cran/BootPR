@@ -1,4 +1,4 @@
-`ysT` <-
+ysT <-
 function(x,b,e)
 {
     p <- length(b)-2

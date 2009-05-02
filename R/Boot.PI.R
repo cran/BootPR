@@ -1,4 +1,4 @@
-`Boot.PI` <-
+Boot.PI <-
 function(x,p,h,nboot,prob)
 {
 set.seed(12345)

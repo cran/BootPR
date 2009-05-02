@@ -1,4 +1,4 @@
-`ART.Fore` <-
+ART.Fore <-
 function(x,b,h)
 {
 n <- nrow(x)

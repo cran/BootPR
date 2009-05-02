@@ -1,4 +1,4 @@
-`LSMBT` <-
+LSMBT <-
 function(x,p)
 {
     x <- as.matrix(x)

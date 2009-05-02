@@ -1,4 +1,4 @@
-`LSE` <-
+LSE <-
 function(x,p)
 {
     x <- as.matrix(x)

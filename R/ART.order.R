@@ -1,4 +1,4 @@
-`ART.order` <-
+ART.order <-
 function(x,pmax)
 {
 n <- nrow(x)

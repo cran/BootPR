@@ -1,4 +1,4 @@
-`BootstrapTB` <-
+BootstrapTB <-
 function(x,p,h,nboot,correct)
 {
     set.seed(12345)

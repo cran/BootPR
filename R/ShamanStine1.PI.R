@@ -1,4 +1,4 @@
-`ShamanStine1.PI` <-
+ShamanStine1.PI <-
 function(x,p,h,nboot,prob,correct)
 {
 set.seed(12345)
