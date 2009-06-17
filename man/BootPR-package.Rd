@@ -15,15 +15,15 @@ A future version will include the case of vector AR models.
 \tabular{ll}{
 Package: \tab BootPR\cr
 Type: \tab Package\cr
-Version: \tab 0.57\cr
-Date: \tab 2009-05-02\cr
+Version: \tab 0.58\cr
+Date: \tab 2009-06-17\cr
 License: \tab GPL version 2 or newer\cr
 }
 }
 \author{
 Jae H. Kim
 
-Maintainer: Jae H. Kim <Jae.Kim@BusEco.monash.edu.au>
+Maintainer: Jae H. Kim <J.Kim@latrobe.edu.au>
 
 }
 \keyword{ts}

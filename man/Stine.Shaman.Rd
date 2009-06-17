@@ -30,9 +30,13 @@ Shaman, P., & Stine, R. A. (1988). The bias of autoregressive coefficient estima
 Stine, R. A., & Shaman, P. (1989). A fixed point characterization for bias of autoregressive estimators. The Annals of Statistics,17, 1275-1284.
 
 Kilian, L. (1998a). Small sample confidence intervals for impulse response functions. The Review of Economics and Statistics, 80,218-230.
+
+Kim, J.H. H. Song, K Wong., 2009, Bias-corrected Bootstrap Prediction Intervals for Autoregressive Model: New Alternatives with Applications to Tourism Forecasting, Journal of Forecasting, forthcoming.
+
+
 }
 \author{ Jae H. Kim }
-\note{ Contact the author for the details of the stationarity-correction based on stable spectral factorization
+\note{ See Kim et al. (2009) for the details of the stationarity-correction based on stable spectral factorization
 }
 \examples{
 data(IPdata)
