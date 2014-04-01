@@ -16,4 +16,3 @@ for( i in 1:h)
 f <- rx[(p+1):(p+h)]
 return(f)
 }
-

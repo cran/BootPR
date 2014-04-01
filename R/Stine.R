@@ -70,4 +70,3 @@ diag(eye) <- rep(1,p)
 ahat <- solve(eye+bmat2) %*% (a[2:(p+1)]-bmat1)
 return(ahat)
 }
-

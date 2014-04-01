@@ -20,4 +20,3 @@ function(x,p,h,prob)
     }
 return(list(coef=b,resid=e,forecast=f,PI=PImat))
 }
-

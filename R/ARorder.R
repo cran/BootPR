@@ -10,4 +10,3 @@ rownames(M$Criteria) <- paste("",1:pmax,sep="")
 rownames(M$ARorder) <- "p*"; colnames(M$ARorder) <- c("aic","bic","hq")
 return(list(ARorder=M$ARorder,Criteria=M$Criteria))
 }
-

@@ -29,4 +29,3 @@ newb <- arlevel(newb,p)}
 }
 return(newb)
 }
-

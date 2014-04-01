@@ -16,4 +16,3 @@ function(x,b)
     e <- y - xmat %*% b
     return(e-mean(e))
 }
-

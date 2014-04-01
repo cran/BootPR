@@ -18,4 +18,3 @@ function(b,btem1,p)
     }
     return(bs2)
 }
-

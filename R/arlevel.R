@@ -19,4 +19,3 @@ function(b,p)
     a <- c(a,b[(p+1):length(b)])
     return(as.matrix(a))
 }
-

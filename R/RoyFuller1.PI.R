@@ -31,4 +31,3 @@ for( i in 1:h)
 Interval[i,] <- quantile(fore[,i],probs=prob)
 return(list(PI=Interval,forecast=BC$forecast))
 }
-

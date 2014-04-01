@@ -9,4 +9,3 @@ function(b,h,p)
     }
     return(mf)
 }
-

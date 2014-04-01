@@ -21,4 +21,3 @@ tau <- (b[1,1]-1)/se
 
 return(list(coef=b,se=se,tau=tau))
 }
-

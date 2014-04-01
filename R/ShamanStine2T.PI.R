@@ -1,11 +1,11 @@
 ShamanStine2T.PI <-
-function(x,p,h,nboot,prob,correct,pmax)
+function(x,p,h,nboot,prob,pmax)
 {
 set.seed(12345)
 n <- nrow(x)
 
-BC <- Shaman.StineT(x,p,h,correct)
-BCB <- Shaman.StineBT(x,p,h,correct)
+BC <- Shaman.StineT(x,p,h)
+BCB <- Shaman.StineBT(x,p,h)
 
 bb <- BCB$coef
 eb <- sqrt( (n-p) / ( (n-p)-p-1))*BCB$resid
@@ -18,7 +18,7 @@ for(i in 1:nboot)
         es <- eb[index,1]
         xs <- ysbT(x, bb, es)
         ps <- ART.order(xs,pmax)$ARorder[1]
-        bs <- Shaman.StineT(xs,ps,h,correct)$coef
+        bs <- Shaman.StineT(xs,ps,h)$coef
         fore[i,] <- ART.ForeB(xs,bs,h,ef,length(bb)-1)
     }
 
@@ -27,4 +27,3 @@ for( i in 1:h)
 Interval[i,] <- quantile(fore[,i],probs=prob)
 return(list(PI=Interval,forecast=BC$forecast))
 }
-

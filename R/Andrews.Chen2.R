@@ -33,4 +33,3 @@ if(h > 0)
 f <- ART.Fore(x,b,h)
 return(list(coef=b,ecmcoef=newb2,resid=e,forecast=f))
 }
-

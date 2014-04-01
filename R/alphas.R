@@ -19,4 +19,3 @@ stat[ii,1] <- bs[1]
 }
 return(median(stat))
 }
-

@@ -5,7 +5,7 @@
   The function returns bias-corrected forecasts and bootstrap prediction intervals using Shaman and Stine bias formula for univariate AR models
 }
 \usage{
-ShamanStine.PI(x, p, h, nboot, prob, type, correct, pmax)
+ShamanStine.PI(x, p, h, nboot, prob, type, pmax)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
@@ -15,8 +15,7 @@ ShamanStine.PI(x, p, h, nboot, prob, type, correct, pmax)
   \item{nboot}{number of bootstrap iterations }
   \item{prob}{a vector of probability values }
   \item{type}{ "const" for the AR model with intercept only, "const+trend" for the AR model with intercept and trend }
-  \item{correct}{ "kilian" for Kilian's stationarity-correction; "ssf" for stationarity-correction based on stable spectral factorization}
-  \item{pmax}{ for exogenous lag order algorithm, pmax = 0, for endogenous lag order algorithm, pmax is an integer greater than 0 }
+    \item{pmax}{ for exogenous lag order algorithm, pmax = 0, for endogenous lag order algorithm, pmax is an integer greater than 0 }
 }
 \value{
 
@@ -35,16 +34,14 @@ Stine, R. A., & Shaman, P. (1989). A fixed point characterization for bias of au
 
 Kilian, L. (1998a). Small sample confidence intervals for impulse response functions. The Review of Economics and Statistics, 80,218-230.
 
-Kim, J.H. H. Song, K Wong., 2009, Bias-corrected Bootstrap Prediction Intervals for Autoregressive Model: New Alternatives with Applications to Tourism Forecasting, Journal of Forecasting, forthcoming.
-
 
 }
 \author{ Jae H. Kim }
-\note{ See Kim et al. (2009) for the details of the stationarity-correction based on stable spectral factorization
-}
+
+
 \examples{
 data(IPdata)
-ShamanStine.PI(IPdata,p=6,h=10,nboot=1000,prob=c(0.5,0.95),type="const+trend",correct="ssf",pmax=0)
+ShamanStine.PI(IPdata,p=1,h=10,nboot=100,prob=c(0.05,0.95),type="const+trend",pmax=0)
 
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the

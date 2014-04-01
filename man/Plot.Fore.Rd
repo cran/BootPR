@@ -31,7 +31,7 @@ Plot.Fore(x, fore, start, end, frequency)
 
 \examples{
 data(IPdata)
-BootF <- BootBC(IPdata,p=6,h=10,nboot=500,type="const+trend",correct="ssf")
+BootF <- BootBC(IPdata,p=1,h=10,nboot=100,type="const+trend")
 Plot.Fore(IPdata,BootF$forecast,start=1860,end=1988,frequency=1)
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the

@@ -20,4 +20,3 @@ function(x,p)
     #return(list(coef=arlevel(b,p),resid=e))
     return(list(coef=b,resid=e))
 }
-

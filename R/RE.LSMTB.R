@@ -18,4 +18,3 @@ function(x,p,b)
     tem2 <- solve( t(x2) %*% x2) %*% t(x2) %*% tem1 
  return(tem2)
  }
-

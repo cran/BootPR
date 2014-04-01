@@ -37,6 +37,6 @@ The Andrew-Chen estimator may break down when the AR order is very high. I recom
 }
 \examples{
 data(IPdata)
-Andrews.Chen(IPdata,p=6,h=10,type="const+trend")
+BootBC(IPdata,p=1,h=10,nboot=200,type="const+trend")
 }
 \keyword{ ts }

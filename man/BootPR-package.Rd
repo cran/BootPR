@@ -15,8 +15,8 @@ A future version will include the case of vector AR models.
 \tabular{ll}{
 Package: \tab BootPR\cr
 Type: \tab Package\cr
-Version: \tab 0.58\cr
-Date: \tab 2009-06-17\cr
+Version: \tab 0.59\cr
+Date: \tab 2014-03-31\cr
 License: \tab GPL version 2 or newer\cr
 }
 }

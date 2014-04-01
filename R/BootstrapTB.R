@@ -1,5 +1,5 @@
 BootstrapTB <-
-function(x,p,h,nboot,correct)
+function(x,p,h,nboot)
 {
     set.seed(12345)
     B <- LSMBT(x,p)
@@ -15,10 +15,8 @@ function(x,p,h,nboot,correct)
         btem1 <- btem1 + LSMBT(xs,p)$coef/nboot
     }
     bc <- 2*b-btem1
-    if( correct == "kilian")
+    
     bc <- adjust(b,bc,p)
-    if( correct == "ssf")
-    bc <- adjust2(bc,p)
     
     if(sum(b) != sum(bc))
     bc[(p+1):(p+2),] <- RE.LSMTB(x,p,bc)
@@ -29,4 +27,3 @@ function(x,p,h,nboot,correct)
     f <- ART.Fore(x,bc,h)
 return(list(coef=bc,resid=e,forecast=f))
 }
-

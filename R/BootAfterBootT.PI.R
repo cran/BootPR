@@ -1,12 +1,12 @@
 BootAfterBootT.PI <-
-function(x,p,h,nboot,prob,correct)
+function(x,p,h,nboot,prob)
 {
 set.seed(12345)
 n <- nrow(x)
 
 B <- OLS.ART(x,p,h,prob)
-BBC <- BootstrapT(x,p,h,200,correct)
-BBCB <- BootstrapTB(x,p,h,200,correct)
+BBC <- BootstrapT(x,p,h,200)
+BBCB <- BootstrapTB(x,p,h,200)
 
 bb <- BBCB$coef
 eb <- sqrt( (n-p) / ( (n-p)-length(bb)))*BBCB$resid
@@ -21,10 +21,7 @@ for(i in 1:nboot)
         xs <- ysbT(x, bb, es)
         bs <- LSMT(xs,p)$coef 
         bsc <- bs-bias
-        if( correct == "kilian")
         bsc <- adjust(bs,bsc,p)
-        if( correct == "ssf")
-        bsc <- adjust2(bsc,p)
 
         if(sum(bsc) != sum(bs))
         bsc[(p+1):(p+2),] <- RE.LSMT(xs,p,bsc)
@@ -37,4 +34,3 @@ for( i in 1:h)
 Interval[i,] <- quantile(fore[,i],probs=prob)
 return(list(PI=Interval,forecast=BBC$forecast))
 }
-

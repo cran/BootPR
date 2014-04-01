@@ -26,7 +26,7 @@ Thombs, L. A., & Schucany, W. R. (1990). Bootstrap prediction intervals for auto
 
 \examples{
 data(IPdata)
-BootPI(IPdata,p=6,h=10,nboot=1000,prob=c(0.5,0.95),type="const+trend")
+BootPI(IPdata,p=1,h=10,nboot=100,prob=c(0.05,0.95),type="const+trend")
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.

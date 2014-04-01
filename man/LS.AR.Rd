@@ -27,7 +27,7 @@ LS.AR(x, p, h, type, prob)
 
 \examples{
 data(IPdata)
-LS.AR(IPdata,p=6,h=10,type="const+trend", prob=c(0.5,0.95))
+LS.AR(IPdata,p=6,h=10,type="const+trend", prob=c(0.05,0.95))
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 \keyword{ ts }

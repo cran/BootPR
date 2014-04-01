@@ -18,4 +18,3 @@ phq <- tem[tem[,4] == min(tem[,4]),1]
 
 return(list(ARorder=cbind(paic,pbic,phq),Criteria=tem[,2:4]))
 }
-

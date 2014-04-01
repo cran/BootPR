@@ -24,4 +24,3 @@ if( stat[1,2] < b[1] & stat[nrow(stat),2] >= b[1])
 
 return(alphau)
 }
-

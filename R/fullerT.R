@@ -24,4 +24,3 @@ newb <- rbind(b2,estmf(y,p,b2))
 newb <- arlevel(newb,p)
 return(newb)
 }
-

@@ -34,4 +34,3 @@ if(h > 0)
 f <- AR.Fore(x,b,h)
 return(list(coef=b,ecmcoef=newb2,resid=e,forecast=f))
 }
-

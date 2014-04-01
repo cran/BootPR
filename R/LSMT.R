@@ -17,4 +17,3 @@ function(x,p)
 
 return(list(coef=b,resid=e))
 }
-
