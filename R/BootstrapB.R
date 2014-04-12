@@ -1,7 +1,7 @@
 BootstrapB <-
 function(x,p,h,nboot)
 {
-    set.seed(12345)
+    #set.seed(12345)
     B <- LSMB(x,p)
     n <- nrow(x)
     b <- B$coef 

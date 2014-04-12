@@ -1,7 +1,7 @@
 ShamanStine1T.PI <-
 function(x,p,h,nboot,prob)
 {
-set.seed(12345)
+#set.seed(12345)
 n <- nrow(x)
 
 BC <- Shaman.StineT(x,p,h)
