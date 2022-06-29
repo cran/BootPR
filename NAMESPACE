@@ -1,1 +1,4 @@
 export(Andrews.Chen, ARorder, BootAfterBootPI, BootBC, BootPI, LS.AR, Plot.Fore, Plot.PI, Roy.Fuller, ShamanStine.PI, Stine.Shaman)
+importFrom("graphics", "title")
+    importFrom("stats", "median", "qnorm", "quantile", "rnorm", "runif",
+               "ts", "ts.plot")

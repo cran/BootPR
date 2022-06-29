@@ -1,7 +1,7 @@
 Boot.PI <-
 function(x,p,h,nboot,prob)
 {
-#set.seed(12345)
+set.seed(12345)
 n <- nrow(x)
 B <- OLS.AR(x,p,h,prob)
 bb <- LSMB(x,p)$coef
