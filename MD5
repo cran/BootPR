@@ -1,4 +1,4 @@
-adb64a39e23b56895351b259e6272dd0 *DESCRIPTION
+24e9bb0d07e62832a435069e31de3f76 *DESCRIPTION
 e88401d92e8737cad4d610c2153516af *NAMESPACE
 a4f52df287797a8a5cac247294fc42f5 *R/AR.Fore.R
 69e5b50e22f17155e753eeaeedb1bd75 *R/AR.ForeB.R
@@ -80,7 +80,7 @@ efed877b9d3e0981d174eccbedaea272 *man/Andrews.Chen.Rd
 d68290da80bf04f2e327774c1034f93a *man/BootAfterBootPI.Rd
 509c620be736bac4dac7907ea9a36eef *man/BootBC.Rd
 6e6411769db55967324ea53f0e12270e *man/BootPI.Rd
-1de35d90a8bc5f2ad52534733f4af0eb *man/BootPR-package.Rd
+82f883f40394d7ffe49831c6d76dc9e3 *man/BootPR-package.Rd
 0c8cd90e3ff28c2697c456a5c01ba7e1 *man/IPdata.Rd
 9d92cda1158afa54809dcc42c9a67710 *man/LS.AR.Rd
 75f75873300bbb40ff35480ef565ea84 *man/Plot.Fore.Rd
